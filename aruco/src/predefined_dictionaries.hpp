@@ -16162,7 +16162,7 @@ static unsigned char DICT_6X6_1000_BYTES[][4][5] =
         { 206, 125, 253, 183, 5 },
         { 255, 135, 198, 183, 15 },
         { 174, 219, 251, 231, 3 }, }, };
-static unsigned char DICT_APRILTAG_BYTES[][4][5] = {
+static unsigned char DICT_APRILTAG_BYTES[][4][5] = 
 { 
     { 
      { 213,214,40,88,4 },
