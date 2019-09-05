@@ -1,0 +1,327 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+Board	include/opencv2/aruco.hpp	/^class CV_EXPORTS_W Board {$/;"	c	namespace:cv::aruco
+CORNER_REFINE_CONTOUR	include/opencv2/aruco.hpp	/^	CORNER_REFINE_CONTOUR   \/\/ refine the corners using the contour-points$/;"	e	enum:cv::aruco::CornerRefineMethod
+CORNER_REFINE_NONE	include/opencv2/aruco.hpp	/^	CORNER_REFINE_NONE,     \/\/ default corners$/;"	e	enum:cv::aruco::CornerRefineMethod
+CORNER_REFINE_SUBPIX	include/opencv2/aruco.hpp	/^	CORNER_REFINE_SUBPIX,   \/\/ refine the corners using subpix$/;"	e	enum:cv::aruco::CornerRefineMethod
+CornerRefineMethod	include/opencv2/aruco.hpp	/^enum CornerRefineMethod{$/;"	g	namespace:cv::aruco
+DetectorParameters	include/opencv2/aruco.hpp	/^struct CV_EXPORTS_W DetectorParameters {$/;"	s	namespace:cv::aruco
+GridBoard	include/opencv2/aruco.hpp	/^class CV_EXPORTS_W GridBoard : public Board {$/;"	c	namespace:cv::aruco
+__OPENCV_ARUCO_HPP__	include/opencv2/aruco.hpp	40;"	d
+_markerLength	include/opencv2/aruco.hpp	/^    float _markerLength;$/;"	m	class:cv::aruco::GridBoard
+_markerSeparation	include/opencv2/aruco.hpp	/^    float _markerSeparation;$/;"	m	class:cv::aruco::GridBoard
+_markersX	include/opencv2/aruco.hpp	/^    int _markersX, _markersY;$/;"	m	class:cv::aruco::GridBoard
+_markersY	include/opencv2/aruco.hpp	/^    int _markersX, _markersY;$/;"	m	class:cv::aruco::GridBoard
+adaptiveThreshConstant	include/opencv2/aruco.hpp	/^    CV_PROP_RW double adaptiveThreshConstant;$/;"	m	struct:cv::aruco::DetectorParameters
+adaptiveThreshWinSizeMax	include/opencv2/aruco.hpp	/^    CV_PROP_RW int adaptiveThreshWinSizeMax;$/;"	m	struct:cv::aruco::DetectorParameters
+adaptiveThreshWinSizeMin	include/opencv2/aruco.hpp	/^    CV_PROP_RW int adaptiveThreshWinSizeMin;$/;"	m	struct:cv::aruco::DetectorParameters
+adaptiveThreshWinSizeStep	include/opencv2/aruco.hpp	/^    CV_PROP_RW int adaptiveThreshWinSizeStep;$/;"	m	struct:cv::aruco::DetectorParameters
+aruco	include/opencv2/aruco.hpp	/^namespace aruco {$/;"	n	namespace:cv
+cornerRefinementMaxIterations	include/opencv2/aruco.hpp	/^    CV_PROP_RW int cornerRefinementMaxIterations;$/;"	m	struct:cv::aruco::DetectorParameters
+cornerRefinementMethod	include/opencv2/aruco.hpp	/^    CV_PROP_RW int cornerRefinementMethod;$/;"	m	struct:cv::aruco::DetectorParameters
+cornerRefinementMinAccuracy	include/opencv2/aruco.hpp	/^    CV_PROP_RW double cornerRefinementMinAccuracy;$/;"	m	struct:cv::aruco::DetectorParameters
+cornerRefinementWinSize	include/opencv2/aruco.hpp	/^    CV_PROP_RW int cornerRefinementWinSize;$/;"	m	struct:cv::aruco::DetectorParameters
+cv	include/opencv2/aruco.hpp	/^namespace cv {$/;"	n
+dictionary	include/opencv2/aruco.hpp	/^    CV_PROP Ptr<Dictionary> dictionary;$/;"	m	class:cv::aruco::Board
+errorCorrectionRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double errorCorrectionRate;$/;"	m	struct:cv::aruco::DetectorParameters
+getGridSize	include/opencv2/aruco.hpp	/^    CV_WRAP Size getGridSize() const { return Size(_markersX, _markersY); }$/;"	f	class:cv::aruco::GridBoard
+getMarkerLength	include/opencv2/aruco.hpp	/^    CV_WRAP float getMarkerLength() const { return _markerLength; }$/;"	f	class:cv::aruco::GridBoard
+getMarkerSeparation	include/opencv2/aruco.hpp	/^    CV_WRAP float getMarkerSeparation() const { return _markerSeparation; }$/;"	f	class:cv::aruco::GridBoard
+ids	include/opencv2/aruco.hpp	/^    CV_PROP std::vector< int > ids;$/;"	m	class:cv::aruco::Board
+markerBorderBits	include/opencv2/aruco.hpp	/^    CV_PROP_RW int markerBorderBits;$/;"	m	struct:cv::aruco::DetectorParameters
+maxErroneousBitsInBorderRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double maxErroneousBitsInBorderRate;$/;"	m	struct:cv::aruco::DetectorParameters
+maxMarkerPerimeterRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double maxMarkerPerimeterRate;$/;"	m	struct:cv::aruco::DetectorParameters
+minCornerDistanceRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double minCornerDistanceRate;$/;"	m	struct:cv::aruco::DetectorParameters
+minDistanceToBorder	include/opencv2/aruco.hpp	/^    CV_PROP_RW int minDistanceToBorder;$/;"	m	struct:cv::aruco::DetectorParameters
+minMarkerDistanceRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double minMarkerDistanceRate;$/;"	m	struct:cv::aruco::DetectorParameters
+minMarkerPerimeterRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double minMarkerPerimeterRate;$/;"	m	struct:cv::aruco::DetectorParameters
+minOtsuStdDev	include/opencv2/aruco.hpp	/^    CV_PROP_RW double minOtsuStdDev;$/;"	m	struct:cv::aruco::DetectorParameters
+objPoints	include/opencv2/aruco.hpp	/^    CV_PROP std::vector< std::vector< Point3f > > objPoints;$/;"	m	class:cv::aruco::Board
+perspectiveRemoveIgnoredMarginPerCell	include/opencv2/aruco.hpp	/^    CV_PROP_RW double perspectiveRemoveIgnoredMarginPerCell;$/;"	m	struct:cv::aruco::DetectorParameters
+perspectiveRemovePixelPerCell	include/opencv2/aruco.hpp	/^    CV_PROP_RW int perspectiveRemovePixelPerCell;$/;"	m	struct:cv::aruco::DetectorParameters
+polygonalApproxAccuracyRate	include/opencv2/aruco.hpp	/^    CV_PROP_RW double polygonalApproxAccuracyRate;$/;"	m	struct:cv::aruco::DetectorParameters
+CharucoBoard	include/opencv2/aruco/charuco.hpp	/^class CV_EXPORTS_W CharucoBoard : public Board {$/;"	c	namespace:cv::aruco
+__OPENCV_CHARUCO_HPP__	include/opencv2/aruco/charuco.hpp	40;"	d
+_markerLength	include/opencv2/aruco/charuco.hpp	/^    float _markerLength;$/;"	m	class:cv::aruco::CharucoBoard
+_squareLength	include/opencv2/aruco/charuco.hpp	/^    float _squareLength;$/;"	m	class:cv::aruco::CharucoBoard
+_squaresX	include/opencv2/aruco/charuco.hpp	/^    int _squaresX, _squaresY;$/;"	m	class:cv::aruco::CharucoBoard
+_squaresY	include/opencv2/aruco/charuco.hpp	/^    int _squaresX, _squaresY;$/;"	m	class:cv::aruco::CharucoBoard
+aruco	include/opencv2/aruco/charuco.hpp	/^namespace aruco {$/;"	n	namespace:cv
+chessboardCorners	include/opencv2/aruco/charuco.hpp	/^    CV_PROP std::vector< Point3f > chessboardCorners;$/;"	m	class:cv::aruco::CharucoBoard
+cv	include/opencv2/aruco/charuco.hpp	/^namespace cv {$/;"	n
+getChessboardSize	include/opencv2/aruco/charuco.hpp	/^    CV_WRAP Size getChessboardSize() const { return Size(_squaresX, _squaresY); }$/;"	f	class:cv::aruco::CharucoBoard
+getMarkerLength	include/opencv2/aruco/charuco.hpp	/^    CV_WRAP float getMarkerLength() const { return _markerLength; }$/;"	f	class:cv::aruco::CharucoBoard
+getSquareLength	include/opencv2/aruco/charuco.hpp	/^    CV_WRAP float getSquareLength() const { return _squareLength; }$/;"	f	class:cv::aruco::CharucoBoard
+nearestMarkerCorners	include/opencv2/aruco/charuco.hpp	/^    CV_PROP std::vector< std::vector< int > > nearestMarkerCorners;$/;"	m	class:cv::aruco::CharucoBoard
+nearestMarkerIdx	include/opencv2/aruco/charuco.hpp	/^    CV_PROP std::vector< std::vector< int > > nearestMarkerIdx;$/;"	m	class:cv::aruco::CharucoBoard
+DICT_4X4_100	include/opencv2/aruco/dictionary.hpp	/^    DICT_4X4_100,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_4X4_1000	include/opencv2/aruco/dictionary.hpp	/^    DICT_4X4_1000,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_4X4_250	include/opencv2/aruco/dictionary.hpp	/^    DICT_4X4_250,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_4X4_50	include/opencv2/aruco/dictionary.hpp	/^    DICT_4X4_50 = 0,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_5X5_100	include/opencv2/aruco/dictionary.hpp	/^    DICT_5X5_100,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_5X5_1000	include/opencv2/aruco/dictionary.hpp	/^    DICT_5X5_1000,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_5X5_250	include/opencv2/aruco/dictionary.hpp	/^    DICT_5X5_250,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_5X5_50	include/opencv2/aruco/dictionary.hpp	/^    DICT_5X5_50,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_6X6_100	include/opencv2/aruco/dictionary.hpp	/^    DICT_6X6_100,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_6X6_1000	include/opencv2/aruco/dictionary.hpp	/^    DICT_6X6_1000,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_6X6_250	include/opencv2/aruco/dictionary.hpp	/^    DICT_6X6_250,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_6X6_50	include/opencv2/aruco/dictionary.hpp	/^    DICT_6X6_50,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_7X7_100	include/opencv2/aruco/dictionary.hpp	/^    DICT_7X7_100,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_7X7_1000	include/opencv2/aruco/dictionary.hpp	/^    DICT_7X7_1000,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_7X7_250	include/opencv2/aruco/dictionary.hpp	/^    DICT_7X7_250,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_7X7_50	include/opencv2/aruco/dictionary.hpp	/^    DICT_7X7_50,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_APRILTAG	include/opencv2/aruco/dictionary.hpp	/^    DICT_APRILTAG ,$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+DICT_ARUCO_ORIGINAL	include/opencv2/aruco/dictionary.hpp	/^    DICT_ARUCO_ORIGINAL$/;"	e	enum:cv::aruco::PREDEFINED_DICTIONARY_NAME
+Dictionary	include/opencv2/aruco/dictionary.hpp	/^class CV_EXPORTS_W Dictionary {$/;"	c	namespace:cv::aruco
+PREDEFINED_DICTIONARY_NAME	include/opencv2/aruco/dictionary.hpp	/^enum CV_EXPORTS_W_SIMPLE PREDEFINED_DICTIONARY_NAME {$/;"	g	namespace:cv::aruco
+__OPENCV_DICTIONARY_HPP__	include/opencv2/aruco/dictionary.hpp	40;"	d
+aruco	include/opencv2/aruco/dictionary.hpp	/^namespace aruco {$/;"	n	namespace:cv
+bytesList	include/opencv2/aruco/dictionary.hpp	/^    CV_PROP_RW Mat bytesList;         \/\/ marker code information$/;"	m	class:cv::aruco::Dictionary
+cv	include/opencv2/aruco/dictionary.hpp	/^namespace cv {$/;"	n
+markerSize	include/opencv2/aruco/dictionary.hpp	/^    CV_PROP_RW int markerSize;        \/\/ number of bits per dimension$/;"	m	class:cv::aruco::Dictionary
+maxCorrectionBits	include/opencv2/aruco/dictionary.hpp	/^    CV_PROP_RW int maxCorrectionBits; \/\/ maximum number of bits that can be corrected$/;"	m	class:cv::aruco::Dictionary
+about	samples/calibrate_camera.cpp	/^const char* about =$/;"	m	namespace:__anon8	file:
+keys	samples/calibrate_camera.cpp	/^const char* keys  =$/;"	m	namespace:__anon8	file:
+main	samples/calibrate_camera.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+readDetectorParameters	samples/calibrate_camera.cpp	/^static bool readDetectorParameters(string filename, Ptr<aruco::DetectorParameters> &params) {$/;"	f	file:
+saveCameraParams	samples/calibrate_camera.cpp	/^static bool saveCameraParams(const string &filename, Size imageSize, float aspectRatio, int flags,$/;"	f	file:
+about	samples/calibrate_camera_charuco.cpp	/^const char* about =$/;"	m	namespace:__anon5	file:
+keys	samples/calibrate_camera_charuco.cpp	/^const char* keys  =$/;"	m	namespace:__anon5	file:
+main	samples/calibrate_camera_charuco.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+readDetectorParameters	samples/calibrate_camera_charuco.cpp	/^static bool readDetectorParameters(string filename, Ptr<aruco::DetectorParameters> &params) {$/;"	f	file:
+saveCameraParams	samples/calibrate_camera_charuco.cpp	/^static bool saveCameraParams(const string &filename, Size imageSize, float aspectRatio, int flags,$/;"	f	file:
+about	samples/create_board.cpp	/^const char* about = "Create an ArUco grid board image";$/;"	m	namespace:__anon2	file:
+keys	samples/create_board.cpp	/^const char* keys  =$/;"	m	namespace:__anon2	file:
+main	samples/create_board.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+about	samples/create_board_charuco.cpp	/^const char* about = "Create a ChArUco board image";$/;"	m	namespace:__anon4	file:
+keys	samples/create_board_charuco.cpp	/^const char* keys  =$/;"	m	namespace:__anon4	file:
+main	samples/create_board_charuco.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+about	samples/create_diamond.cpp	/^const char* about = "Create a ChArUco marker image";$/;"	m	namespace:__anon9	file:
+keys	samples/create_diamond.cpp	/^const char* keys  =$/;"	m	namespace:__anon9	file:
+main	samples/create_diamond.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+about	samples/create_marker.cpp	/^const char* about = "Create an ArUco marker image";$/;"	m	namespace:__anon11	file:
+keys	samples/create_marker.cpp	/^const char* keys  =$/;"	m	namespace:__anon11	file:
+main	samples/create_marker.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+about	samples/detect_board.cpp	/^const char* about = "Pose estimation using a ArUco Planar Grid board";$/;"	m	namespace:__anon10	file:
+keys	samples/detect_board.cpp	/^const char* keys  =$/;"	m	namespace:__anon10	file:
+main	samples/detect_board.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+readCameraParameters	samples/detect_board.cpp	/^static bool readCameraParameters(string filename, Mat &camMatrix, Mat &distCoeffs) {$/;"	f	file:
+readDetectorParameters	samples/detect_board.cpp	/^static bool readDetectorParameters(string filename, Ptr<aruco::DetectorParameters> &params) {$/;"	f	file:
+about	samples/detect_board_charuco.cpp	/^const char* about = "Pose estimation using a ChArUco board";$/;"	m	namespace:__anon7	file:
+keys	samples/detect_board_charuco.cpp	/^const char* keys  =$/;"	m	namespace:__anon7	file:
+main	samples/detect_board_charuco.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+readCameraParameters	samples/detect_board_charuco.cpp	/^static bool readCameraParameters(string filename, Mat &camMatrix, Mat &distCoeffs) {$/;"	f	file:
+readDetectorParameters	samples/detect_board_charuco.cpp	/^static bool readDetectorParameters(string filename, Ptr<aruco::DetectorParameters> &params) {$/;"	f	file:
+about	samples/detect_diamonds.cpp	/^const char* about = "Detect ChArUco markers";$/;"	m	namespace:__anon6	file:
+keys	samples/detect_diamonds.cpp	/^const char* keys  =$/;"	m	namespace:__anon6	file:
+main	samples/detect_diamonds.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+readCameraParameters	samples/detect_diamonds.cpp	/^static bool readCameraParameters(string filename, Mat &camMatrix, Mat &distCoeffs) {$/;"	f	file:
+readDetectorParameters	samples/detect_diamonds.cpp	/^static bool readDetectorParameters(string filename, Ptr<aruco::DetectorParameters> &params) {$/;"	f	file:
+about	samples/detect_markers.cpp	/^const char* about = "Basic marker detection";$/;"	m	namespace:__anon3	file:
+keys	samples/detect_markers.cpp	/^const char* keys  =$/;"	m	namespace:__anon3	file:
+main	samples/detect_markers.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+readCameraParameters	samples/detect_markers.cpp	/^static bool readCameraParameters(string filename, Mat &camMatrix, Mat &distCoeffs) {$/;"	f	file:
+readDetectorParameters	samples/detect_markers.cpp	/^static bool readDetectorParameters(string filename, Ptr<aruco::DetectorParameters> &params) {$/;"	f	file:
+DetectInitialCandidatesParallel	src/aruco.cpp	/^    DetectInitialCandidatesParallel(const Mat *_grey,$/;"	f	class:cv::aruco::DetectInitialCandidatesParallel
+DetectInitialCandidatesParallel	src/aruco.cpp	/^class DetectInitialCandidatesParallel : public ParallelLoopBody {$/;"	c	namespace:cv::aruco	file:
+DetectorParameters	src/aruco.cpp	/^DetectorParameters::DetectorParameters()$/;"	f	class:cv::aruco::DetectorParameters
+IdentifyCandidatesParallel	src/aruco.cpp	/^    IdentifyCandidatesParallel(const Mat& _grey, vector< vector< Point2f > >& _candidates,$/;"	f	class:cv::aruco::IdentifyCandidatesParallel
+IdentifyCandidatesParallel	src/aruco.cpp	/^class IdentifyCandidatesParallel : public ParallelLoopBody {$/;"	c	namespace:cv::aruco	file:
+MarkerContourParallel	src/aruco.cpp	/^    MarkerContourParallel( vector< vector< Point > >& _contours, vector< vector< Point2f > >& _candidates,  const Mat& _camMatrix, const Mat& _distCoeff)$/;"	f	class:cv::aruco::MarkerContourParallel
+MarkerContourParallel	src/aruco.cpp	/^class MarkerContourParallel : public ParallelLoopBody {$/;"	c	namespace:cv::aruco	file:
+MarkerSubpixelParallel	src/aruco.cpp	/^    MarkerSubpixelParallel(const Mat *_grey, OutputArrayOfArrays _corners,$/;"	f	class:cv::aruco::MarkerSubpixelParallel
+MarkerSubpixelParallel	src/aruco.cpp	/^class MarkerSubpixelParallel : public ParallelLoopBody {$/;"	c	namespace:cv::aruco	file:
+SinglePoseEstimationParallel	src/aruco.cpp	/^    SinglePoseEstimationParallel(Mat& _markerObjPoints, InputArrayOfArrays _corners,$/;"	f	class:cv::aruco::SinglePoseEstimationParallel
+SinglePoseEstimationParallel	src/aruco.cpp	/^class SinglePoseEstimationParallel : public ParallelLoopBody {$/;"	c	namespace:cv::aruco	file:
+_convertToGrey	src/aruco.cpp	/^static void _convertToGrey(InputArray _in, OutputArray _out) {$/;"	f	namespace:cv::aruco
+_copyVector2Output	src/aruco.cpp	/^static void _copyVector2Output(vector< vector< Point2f > > &vec, OutputArrayOfArrays out) {$/;"	f	namespace:cv::aruco
+_detectCandidates	src/aruco.cpp	/^static void _detectCandidates(InputArray _image, vector< vector< Point2f > >& candidatesOut,$/;"	f	namespace:cv::aruco
+_detectInitialCandidates	src/aruco.cpp	/^static void _detectInitialCandidates(const Mat &grey, vector< vector< Point2f > > &candidates,$/;"	f	namespace:cv::aruco
+_distortPoints	src/aruco.cpp	/^static void _distortPoints(vector<cv::Point2f>& in, const Mat& camMatrix, const Mat& distCoeff) {$/;"	f	namespace:cv::aruco
+_drawPlanarBoardImpl	src/aruco.cpp	/^void _drawPlanarBoardImpl(Board *_board, Size outSize, OutputArray _img, int marginSize,$/;"	f	namespace:cv::aruco
+_extractBits	src/aruco.cpp	/^static Mat _extractBits(InputArray _image, InputArray _corners, int markerSize,$/;"	f	namespace:cv::aruco
+_filterDetectedMarkers	src/aruco.cpp	/^static void _filterDetectedMarkers(vector< vector< Point2f > >& _corners, vector< int >& _ids, vector< vector< Point> >& _contours) {$/;"	f	namespace:cv::aruco
+_filterTooCloseCandidates	src/aruco.cpp	/^static void _filterTooCloseCandidates(const vector< vector< Point2f > > &candidatesIn,$/;"	f	namespace:cv::aruco
+_findMarkerContours	src/aruco.cpp	/^static void _findMarkerContours(InputArray _in, vector< vector< Point2f > > &candidates,$/;"	f	namespace:cv::aruco
+_getBorderErrors	src/aruco.cpp	/^static int _getBorderErrors(const Mat &bits, int markerSize, int borderSize) {$/;"	f	namespace:cv::aruco
+_getCrossPoint	src/aruco.cpp	/^static Point2f _getCrossPoint(Point3f nLine1, Point3f nLine2){$/;"	f	namespace:cv::aruco
+_getSingleMarkerObjectPoints	src/aruco.cpp	/^static void _getSingleMarkerObjectPoints(float markerLength, OutputArray _objPoints) {$/;"	f	namespace:cv::aruco
+_identifyCandidates	src/aruco.cpp	/^static void _identifyCandidates(InputArray _image, vector< vector< Point2f > >& _candidates,$/;"	f	namespace:cv::aruco
+_identifyOneCandidate	src/aruco.cpp	/^static bool _identifyOneCandidate(const Ptr<Dictionary>& dictionary, InputArray _image,$/;"	f	namespace:cv::aruco
+_interpolate2Dline	src/aruco.cpp	/^static Point3f _interpolate2Dline(const std::vector<cv::Point2f>& nContours){$/;"	f	namespace:cv::aruco
+_projectUndetectedMarkers	src/aruco.cpp	/^static void _projectUndetectedMarkers(const Ptr<Board> &_board, InputOutputArrayOfArrays _detectedCorners,$/;"	f	namespace:cv::aruco
+_refineCandidateLines	src/aruco.cpp	/^static void _refineCandidateLines(std::vector<Point>& nContours, std::vector<Point2f>& nCorners, const Mat& camMatrix, const Mat& distCoeff){$/;"	f	namespace:cv::aruco
+_reorderCandidatesCorners	src/aruco.cpp	/^static void _reorderCandidatesCorners(vector< vector< Point2f > > &candidates) {$/;"	f	namespace:cv::aruco
+_threshold	src/aruco.cpp	/^static void _threshold(InputArray _in, OutputArray _out, int winSize, double constant) {$/;"	f	namespace:cv::aruco
+aruco	src/aruco.cpp	/^namespace aruco {$/;"	n	namespace:cv	file:
+calibrateCameraAruco	src/aruco.cpp	/^double calibrateCameraAruco(InputArrayOfArrays _corners, InputArray _ids, InputArray _counter,$/;"	f	namespace:cv::aruco
+camMatrix	src/aruco.cpp	/^    const Mat& camMatrix;$/;"	m	class:cv::aruco::MarkerContourParallel	file:
+cameraMatrix	src/aruco.cpp	/^    InputArray cameraMatrix, distCoeffs;$/;"	m	class:cv::aruco::SinglePoseEstimationParallel	file:
+candidates	src/aruco.cpp	/^    vector< vector< Point2f > >& candidates;$/;"	m	class:cv::aruco::IdentifyCandidatesParallel	file:
+candidates	src/aruco.cpp	/^    vector< vector< Point2f > >& candidates;$/;"	m	class:cv::aruco::MarkerContourParallel	file:
+candidatesArrays	src/aruco.cpp	/^    vector< vector< vector< Point2f > > > *candidatesArrays;$/;"	m	class:cv::aruco::DetectInitialCandidatesParallel	file:
+contours	src/aruco.cpp	/^    vector< vector< Point > >& contours;$/;"	m	class:cv::aruco::MarkerContourParallel	file:
+contoursArrays	src/aruco.cpp	/^    vector< vector< vector< Point > > > *contoursArrays;$/;"	m	class:cv::aruco::DetectInitialCandidatesParallel	file:
+corners	src/aruco.cpp	/^    InputArrayOfArrays corners;$/;"	m	class:cv::aruco::SinglePoseEstimationParallel	file:
+corners	src/aruco.cpp	/^    OutputArrayOfArrays corners;$/;"	m	class:cv::aruco::MarkerSubpixelParallel	file:
+create	src/aruco.cpp	/^Ptr<Board> Board::create(InputArrayOfArrays objPoints, const Ptr<Dictionary> &dictionary, InputArray ids) {$/;"	f	class:cv::aruco::Board
+create	src/aruco.cpp	/^Ptr<DetectorParameters> DetectorParameters::create() {$/;"	f	class:cv::aruco::DetectorParameters
+create	src/aruco.cpp	/^Ptr<GridBoard> GridBoard::create(int markersX, int markersY, float markerLength, float markerSeparation,$/;"	f	class:cv::aruco::GridBoard
+cv	src/aruco.cpp	/^namespace cv {$/;"	n	file:
+detectMarkers	src/aruco.cpp	/^void detectMarkers(InputArray _image, const Ptr<Dictionary> &_dictionary, OutputArrayOfArrays _corners,$/;"	f	namespace:cv::aruco
+dictionary	src/aruco.cpp	/^    const Ptr<Dictionary> &dictionary;$/;"	m	class:cv::aruco::IdentifyCandidatesParallel	file:
+distCoeff	src/aruco.cpp	/^    const Mat& distCoeff;$/;"	m	class:cv::aruco::MarkerContourParallel	file:
+distCoeffs	src/aruco.cpp	/^    InputArray cameraMatrix, distCoeffs;$/;"	m	class:cv::aruco::SinglePoseEstimationParallel	file:
+draw	src/aruco.cpp	/^void GridBoard::draw(Size outSize, OutputArray _img, int marginSize, int borderBits) {$/;"	f	class:cv::aruco::GridBoard
+drawAxis	src/aruco.cpp	/^void drawAxis(InputOutputArray _image, InputArray _cameraMatrix, InputArray _distCoeffs,$/;"	f	namespace:cv::aruco
+drawDetectedMarkers	src/aruco.cpp	/^void drawDetectedMarkers(InputOutputArray _image, InputArrayOfArrays _corners,$/;"	f	namespace:cv::aruco
+drawMarker	src/aruco.cpp	/^void drawMarker(const Ptr<Dictionary> &dictionary, int id, int sidePixels, OutputArray _img, int borderBits) {$/;"	f	namespace:cv::aruco
+drawPlanarBoard	src/aruco.cpp	/^void drawPlanarBoard(const Ptr<Board> &_board, Size outSize, OutputArray _img, int marginSize,$/;"	f	namespace:cv::aruco
+estimatePoseBoard	src/aruco.cpp	/^int estimatePoseBoard(InputArrayOfArrays _corners, InputArray _ids, const Ptr<Board> &board,$/;"	f	namespace:cv::aruco
+estimatePoseSingleMarkers	src/aruco.cpp	/^void estimatePoseSingleMarkers(InputArrayOfArrays _corners, float markerLength,$/;"	f	namespace:cv::aruco
+getBoardObjectAndImagePoints	src/aruco.cpp	/^void getBoardObjectAndImagePoints(const Ptr<Board> &board, InputArrayOfArrays detectedCorners,$/;"	f	namespace:cv::aruco
+grey	src/aruco.cpp	/^    const Mat &grey;$/;"	m	class:cv::aruco::IdentifyCandidatesParallel	file:
+grey	src/aruco.cpp	/^    const Mat *grey;$/;"	m	class:cv::aruco::DetectInitialCandidatesParallel	file:
+grey	src/aruco.cpp	/^    const Mat *grey;$/;"	m	class:cv::aruco::MarkerSubpixelParallel	file:
+idsTmp	src/aruco.cpp	/^    vector< int > &idsTmp;$/;"	m	class:cv::aruco::IdentifyCandidatesParallel	file:
+markerObjPoints	src/aruco.cpp	/^    Mat& markerObjPoints;$/;"	m	class:cv::aruco::SinglePoseEstimationParallel	file:
+operator ()	src/aruco.cpp	/^    void operator()(const Range &range) const {$/;"	f	class:cv::aruco::DetectInitialCandidatesParallel
+operator ()	src/aruco.cpp	/^    void operator()(const Range &range) const {$/;"	f	class:cv::aruco::IdentifyCandidatesParallel
+operator ()	src/aruco.cpp	/^    void operator()(const Range &range) const {$/;"	f	class:cv::aruco::MarkerContourParallel
+operator ()	src/aruco.cpp	/^    void operator()(const Range &range) const {$/;"	f	class:cv::aruco::MarkerSubpixelParallel
+operator ()	src/aruco.cpp	/^    void operator()(const Range &range) const {$/;"	f	class:cv::aruco::SinglePoseEstimationParallel
+operator =	src/aruco.cpp	/^    MarkerContourParallel &operator=(const MarkerContourParallel &){$/;"	f	class:cv::aruco::MarkerContourParallel	file:
+params	src/aruco.cpp	/^    const Ptr<DetectorParameters> &params;$/;"	m	class:cv::aruco::DetectInitialCandidatesParallel	file:
+params	src/aruco.cpp	/^    const Ptr<DetectorParameters> &params;$/;"	m	class:cv::aruco::IdentifyCandidatesParallel	file:
+params	src/aruco.cpp	/^    const Ptr<DetectorParameters> &params;$/;"	m	class:cv::aruco::MarkerSubpixelParallel	file:
+refineDetectedMarkers	src/aruco.cpp	/^void refineDetectedMarkers(InputArray _image, const Ptr<Board> &_board,$/;"	f	namespace:cv::aruco
+rvecs	src/aruco.cpp	/^    Mat& rvecs, tvecs;$/;"	m	class:cv::aruco::SinglePoseEstimationParallel	file:
+tvecs	src/aruco.cpp	/^    Mat& rvecs, tvecs;$/;"	m	class:cv::aruco::SinglePoseEstimationParallel	file:
+validCandidates	src/aruco.cpp	/^    vector< char > &validCandidates;$/;"	m	class:cv::aruco::IdentifyCandidatesParallel	file:
+CharucoSubpixelParallel	src/charuco.cpp	/^    CharucoSubpixelParallel(const Mat *_grey, vector< Point2f > *_filteredChessboardImgPoints,$/;"	f	class:cv::aruco::CharucoSubpixelParallel
+CharucoSubpixelParallel	src/charuco.cpp	/^class CharucoSubpixelParallel : public ParallelLoopBody {$/;"	c	namespace:cv::aruco	file:
+_arePointsEnoughForPoseEstimation	src/charuco.cpp	/^static bool _arePointsEnoughForPoseEstimation(const vector< Point3f > &points) {$/;"	f	namespace:cv::aruco
+_filterCornersWithoutMinMarkers	src/charuco.cpp	/^static int _filterCornersWithoutMinMarkers(const Ptr<CharucoBoard> &_board,$/;"	f	namespace:cv::aruco
+_getMaximumSubPixWindowSizes	src/charuco.cpp	/^static void _getMaximumSubPixWindowSizes(InputArrayOfArrays markerCorners, InputArray markerIds,$/;"	f	namespace:cv::aruco
+_getNearestMarkerCorners	src/charuco.cpp	/^void CharucoBoard::_getNearestMarkerCorners() {$/;"	f	class:cv::aruco::CharucoBoard
+_interpolateCornersCharucoApproxCalib	src/charuco.cpp	/^static int _interpolateCornersCharucoApproxCalib(InputArrayOfArrays _markerCorners,$/;"	f	namespace:cv::aruco
+_interpolateCornersCharucoLocalHom	src/charuco.cpp	/^static int _interpolateCornersCharucoLocalHom(InputArrayOfArrays _markerCorners,$/;"	f	namespace:cv::aruco
+_selectAndRefineChessboardCorners	src/charuco.cpp	/^static int _selectAndRefineChessboardCorners(InputArray _allCorners, InputArray _image,$/;"	f	namespace:cv::aruco
+aruco	src/charuco.cpp	/^namespace aruco {$/;"	n	namespace:cv	file:
+calibrateCameraCharuco	src/charuco.cpp	/^double calibrateCameraCharuco(InputArrayOfArrays _charucoCorners, InputArrayOfArrays _charucoIds,$/;"	f	namespace:cv::aruco
+create	src/charuco.cpp	/^Ptr<CharucoBoard> CharucoBoard::create(int squaresX, int squaresY, float squareLength,$/;"	f	class:cv::aruco::CharucoBoard
+cv	src/charuco.cpp	/^namespace cv {$/;"	n	file:
+detectCharucoDiamond	src/charuco.cpp	/^void detectCharucoDiamond(InputArray _image, InputArrayOfArrays _markerCorners,$/;"	f	namespace:cv::aruco
+draw	src/charuco.cpp	/^void CharucoBoard::draw(Size outSize, OutputArray _img, int marginSize, int borderBits) {$/;"	f	class:cv::aruco::CharucoBoard
+drawCharucoDiamond	src/charuco.cpp	/^void drawCharucoDiamond(const Ptr<Dictionary> &dictionary, Vec4i ids, int squareLength, int markerLength,$/;"	f	namespace:cv::aruco
+drawDetectedCornersCharuco	src/charuco.cpp	/^void drawDetectedCornersCharuco(InputOutputArray _image, InputArray _charucoCorners,$/;"	f	namespace:cv::aruco
+drawDetectedDiamonds	src/charuco.cpp	/^void drawDetectedDiamonds(InputOutputArray _image, InputArrayOfArrays _corners,$/;"	f	namespace:cv::aruco
+estimatePoseCharucoBoard	src/charuco.cpp	/^bool estimatePoseCharucoBoard(InputArray _charucoCorners, InputArray _charucoIds,$/;"	f	namespace:cv::aruco
+filteredChessboardImgPoints	src/charuco.cpp	/^    vector< Point2f > *filteredChessboardImgPoints;$/;"	m	class:cv::aruco::CharucoSubpixelParallel	file:
+filteredWinSizes	src/charuco.cpp	/^    vector< Size > *filteredWinSizes;$/;"	m	class:cv::aruco::CharucoSubpixelParallel	file:
+grey	src/charuco.cpp	/^    const Mat *grey;$/;"	m	class:cv::aruco::CharucoSubpixelParallel	file:
+interpolateCornersCharuco	src/charuco.cpp	/^int interpolateCornersCharuco(InputArrayOfArrays _markerCorners, InputArray _markerIds,$/;"	f	namespace:cv::aruco
+operator ()	src/charuco.cpp	/^    void operator()(const Range &range) const {$/;"	f	class:cv::aruco::CharucoSubpixelParallel
+params	src/charuco.cpp	/^    const Ptr<DetectorParameters> &params;$/;"	m	class:cv::aruco::CharucoSubpixelParallel	file:
+DICT_4X4_1000_DATA	src/dictionary.cpp	/^const Dictionary DICT_4X4_1000_DATA = Dictionary(Mat(1000, (4*4 + 7)\/8, CV_8UC4, (uchar*)DICT_4X4_1000_BYTES), 4, 0);$/;"	m	namespace:cv::aruco	file:
+DICT_4X4_100_DATA	src/dictionary.cpp	/^const Dictionary DICT_4X4_100_DATA = Dictionary(Mat(100, (4*4 + 7)\/8, CV_8UC4, (uchar*)DICT_4X4_1000_BYTES), 4, 1);$/;"	m	namespace:cv::aruco	file:
+DICT_4X4_250_DATA	src/dictionary.cpp	/^const Dictionary DICT_4X4_250_DATA = Dictionary(Mat(250, (4*4 + 7)\/8, CV_8UC4, (uchar*)DICT_4X4_1000_BYTES), 4, 1);$/;"	m	namespace:cv::aruco	file:
+DICT_4X4_50_DATA	src/dictionary.cpp	/^const Dictionary DICT_4X4_50_DATA = Dictionary(Mat(50, (4*4 + 7)\/8, CV_8UC4, (uchar*)DICT_4X4_1000_BYTES), 4, 1);$/;"	m	namespace:cv::aruco	file:
+DICT_5X5_1000_DATA	src/dictionary.cpp	/^const Dictionary DICT_5X5_1000_DATA = Dictionary(Mat(1000, (5*5 + 7)\/8, CV_8UC4, (uchar*)DICT_5X5_1000_BYTES), 5, 2);$/;"	m	namespace:cv::aruco	file:
+DICT_5X5_100_DATA	src/dictionary.cpp	/^const Dictionary DICT_5X5_100_DATA = Dictionary(Mat(100, (5*5 + 7)\/8, CV_8UC4, (uchar*)DICT_5X5_1000_BYTES), 5, 3);$/;"	m	namespace:cv::aruco	file:
+DICT_5X5_250_DATA	src/dictionary.cpp	/^const Dictionary DICT_5X5_250_DATA = Dictionary(Mat(250, (5*5 + 7)\/8, CV_8UC4, (uchar*)DICT_5X5_1000_BYTES), 5, 2);$/;"	m	namespace:cv::aruco	file:
+DICT_5X5_50_DATA	src/dictionary.cpp	/^const Dictionary DICT_5X5_50_DATA = Dictionary(Mat(50, (5*5 + 7)\/8, CV_8UC4, (uchar*)DICT_5X5_1000_BYTES), 5, 3);$/;"	m	namespace:cv::aruco	file:
+DICT_6X6_1000_DATA	src/dictionary.cpp	/^const Dictionary DICT_6X6_1000_DATA = Dictionary(Mat(1000, (6*6 + 7)\/8 ,CV_8UC4, (uchar*)DICT_6X6_1000_BYTES), 6, 4);$/;"	m	namespace:cv::aruco	file:
+DICT_6X6_100_DATA	src/dictionary.cpp	/^const Dictionary DICT_6X6_100_DATA = Dictionary(Mat(100, (6*6 + 7)\/8 ,CV_8UC4, (uchar*)DICT_6X6_1000_BYTES), 6, 5);$/;"	m	namespace:cv::aruco	file:
+DICT_6X6_250_DATA	src/dictionary.cpp	/^const Dictionary DICT_6X6_250_DATA = Dictionary(Mat(250, (6*6 + 7)\/8 ,CV_8UC4, (uchar*)DICT_6X6_1000_BYTES), 6, 5);$/;"	m	namespace:cv::aruco	file:
+DICT_6X6_50_DATA	src/dictionary.cpp	/^const Dictionary DICT_6X6_50_DATA = Dictionary(Mat(50, (6*6 + 7)\/8 ,CV_8UC4, (uchar*)DICT_6X6_1000_BYTES), 6, 6);$/;"	m	namespace:cv::aruco	file:
+DICT_7X7_1000_DATA	src/dictionary.cpp	/^const Dictionary DICT_7X7_1000_DATA = Dictionary(Mat(1000, (7*7 + 7)\/8 ,CV_8UC4, (uchar*)DICT_7X7_1000_BYTES), 7, 6);$/;"	m	namespace:cv::aruco	file:
+DICT_7X7_100_DATA	src/dictionary.cpp	/^const Dictionary DICT_7X7_100_DATA = Dictionary(Mat(100, (7*7 + 7)\/8 ,CV_8UC4, (uchar*)DICT_7X7_1000_BYTES), 7, 8);$/;"	m	namespace:cv::aruco	file:
+DICT_7X7_250_DATA	src/dictionary.cpp	/^const Dictionary DICT_7X7_250_DATA = Dictionary(Mat(250, (7*7 + 7)\/8 ,CV_8UC4, (uchar*)DICT_7X7_1000_BYTES), 7, 8);$/;"	m	namespace:cv::aruco	file:
+DICT_7X7_50_DATA	src/dictionary.cpp	/^const Dictionary DICT_7X7_50_DATA = Dictionary(Mat(50, (7*7 + 7)\/8 ,CV_8UC4, (uchar*)DICT_7X7_1000_BYTES), 7, 9);$/;"	m	namespace:cv::aruco	file:
+DICT_APRILTAG_DATA	src/dictionary.cpp	/^const Dictionary DICT_APRILTAG_DATA = Dictionary(Mat(5, (6*6 + 7)\/8 ,CV_8UC4, (uchar*)DICT_APRILTAG_BYTES), 6, 6);$/;"	m	namespace:cv::aruco	file:
+DICT_ARUCO_DATA	src/dictionary.cpp	/^const Dictionary DICT_ARUCO_DATA = Dictionary(Mat(1024, (5*5 + 7)\/8, CV_8UC4, (uchar*)DICT_ARUCO_BYTES), 5, 0);$/;"	m	namespace:cv::aruco	file:
+Dictionary	src/dictionary.cpp	/^Dictionary::Dictionary(const Mat &_bytesList, int _markerSize, int _maxcorr) {$/;"	f	class:cv::aruco::Dictionary
+Dictionary	src/dictionary.cpp	/^Dictionary::Dictionary(const Ptr<Dictionary> &_dictionary) {$/;"	f	class:cv::aruco::Dictionary
+_generateRandomMarker	src/dictionary.cpp	/^static Mat _generateRandomMarker(int markerSize) {$/;"	f	namespace:cv::aruco
+_getSelfDistance	src/dictionary.cpp	/^static int _getSelfDistance(const Mat &marker) {$/;"	f	namespace:cv::aruco
+aruco	src/dictionary.cpp	/^namespace aruco {$/;"	n	namespace:cv	file:
+create	src/dictionary.cpp	/^Ptr<Dictionary> Dictionary::create(int nMarkers, int markerSize) {$/;"	f	class:cv::aruco::Dictionary
+create	src/dictionary.cpp	/^Ptr<Dictionary> Dictionary::create(int nMarkers, int markerSize,$/;"	f	class:cv::aruco::Dictionary
+cv	src/dictionary.cpp	/^namespace cv {$/;"	n	file:
+drawMarker	src/dictionary.cpp	/^void Dictionary::drawMarker(int id, int sidePixels, OutputArray _img, int borderBits) const {$/;"	f	class:cv::aruco::Dictionary
+generateCustomDictionary	src/dictionary.cpp	/^Ptr<Dictionary> generateCustomDictionary(int nMarkers, int markerSize) {$/;"	f	namespace:cv::aruco
+generateCustomDictionary	src/dictionary.cpp	/^Ptr<Dictionary> generateCustomDictionary(int nMarkers, int markerSize,$/;"	f	namespace:cv::aruco
+get	src/dictionary.cpp	/^Ptr<Dictionary> Dictionary::get(int dict) {$/;"	f	class:cv::aruco::Dictionary
+getBitsFromByteList	src/dictionary.cpp	/^Mat Dictionary::getBitsFromByteList(const Mat &byteList, int markerSize) {$/;"	f	class:cv::aruco::Dictionary
+getByteListFromBits	src/dictionary.cpp	/^Mat Dictionary::getByteListFromBits(const Mat &bits) {$/;"	f	class:cv::aruco::Dictionary
+getDistanceToId	src/dictionary.cpp	/^int Dictionary::getDistanceToId(InputArray bits, int id, bool allRotations) const {$/;"	f	class:cv::aruco::Dictionary
+getPredefinedDictionary	src/dictionary.cpp	/^Ptr<Dictionary> getPredefinedDictionary(PREDEFINED_DICTIONARY_NAME name) {$/;"	f	namespace:cv::aruco
+getPredefinedDictionary	src/dictionary.cpp	/^Ptr<Dictionary> getPredefinedDictionary(int dict) {$/;"	f	namespace:cv::aruco
+identify	src/dictionary.cpp	/^bool Dictionary::identify(const Mat &onlyBits, int &idx, int &rotation,$/;"	f	class:cv::aruco::Dictionary
+__OPENCV_CCALIB_PRECOMP__	src/precomp.hpp	43;"	d
+DICT_4X4_1000_BYTES	src/predefined_dictionaries.hpp	/^static unsigned char DICT_4X4_1000_BYTES[][4][2] =$/;"	m	namespace:__anon1
+DICT_5X5_1000_BYTES	src/predefined_dictionaries.hpp	/^static unsigned char DICT_5X5_1000_BYTES[][4][4] =$/;"	m	namespace:__anon1
+DICT_6X6_1000_BYTES	src/predefined_dictionaries.hpp	/^static unsigned char DICT_6X6_1000_BYTES[][4][5] =$/;"	m	namespace:__anon1
+DICT_7X7_1000_BYTES	src/predefined_dictionaries.hpp	/^static unsigned char DICT_7X7_1000_BYTES[][4][7] =$/;"	m	namespace:__anon1
+DICT_APRILTAG_BYTES	src/predefined_dictionaries.hpp	/^static unsigned char DICT_APRILTAG_BYTES[][4][5] = {$/;"	m	namespace:__anon1
+DICT_ARUCO_BYTES	src/predefined_dictionaries.hpp	/^static unsigned char DICT_ARUCO_BYTES[][4][4] = {$/;"	m	namespace:__anon1
+CV_ArucoBitCorrection	test/test_arucodetection.cpp	/^CV_ArucoBitCorrection::CV_ArucoBitCorrection() {}$/;"	f	class:opencv_test::__anon14::CV_ArucoBitCorrection
+CV_ArucoBitCorrection	test/test_arucodetection.cpp	/^class CV_ArucoBitCorrection : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon14	file:
+CV_ArucoDetectionMarkerSize	test/test_arucodetection.cpp	/^CV_ArucoDetectionMarkerSize::CV_ArucoDetectionMarkerSize() {}$/;"	f	class:opencv_test::__anon14::CV_ArucoDetectionMarkerSize
+CV_ArucoDetectionMarkerSize	test/test_arucodetection.cpp	/^class CV_ArucoDetectionMarkerSize : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon14	file:
+CV_ArucoDetectionPerspective	test/test_arucodetection.cpp	/^CV_ArucoDetectionPerspective::CV_ArucoDetectionPerspective() {}$/;"	f	class:opencv_test::__anon14::CV_ArucoDetectionPerspective
+CV_ArucoDetectionPerspective	test/test_arucodetection.cpp	/^class CV_ArucoDetectionPerspective : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon14	file:
+CV_ArucoDetectionSimple	test/test_arucodetection.cpp	/^CV_ArucoDetectionSimple::CV_ArucoDetectionSimple() {}$/;"	f	class:opencv_test::__anon14::CV_ArucoDetectionSimple
+CV_ArucoDetectionSimple	test/test_arucodetection.cpp	/^class CV_ArucoDetectionSimple : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon14	file:
+TEST	test/test_arucodetection.cpp	/^TEST(CV_ArucoBitCorrection, algorithmic) {$/;"	f	namespace:opencv_test::__anon14
+TEST	test/test_arucodetection.cpp	/^TEST(CV_ArucoDetectionMarkerSize, algorithmic) {$/;"	f	namespace:opencv_test::__anon14
+TEST	test/test_arucodetection.cpp	/^TEST(CV_ArucoDetectionPerspective, algorithmic) {$/;"	f	namespace:opencv_test::__anon14
+TEST	test/test_arucodetection.cpp	/^TEST(CV_ArucoDetectionSimple, algorithmic) {$/;"	f	namespace:opencv_test::__anon14
+deg2rad	test/test_arucodetection.cpp	/^static double deg2rad(double deg) { return deg * CV_PI \/ 180.; }$/;"	f	namespace:opencv_test::__anon14
+getSyntheticRT	test/test_arucodetection.cpp	/^static void getSyntheticRT(double yaw, double pitch, double distance, Mat &rvec, Mat &tvec) {$/;"	f	namespace:opencv_test::__anon14
+opencv_test	test/test_arucodetection.cpp	/^namespace opencv_test { namespace {$/;"	n	file:
+projectMarker	test/test_arucodetection.cpp	/^static Mat projectMarker(Ptr<aruco::Dictionary> &dictionary, int id, Mat cameraMatrix, double yaw,$/;"	f	namespace:opencv_test::__anon14
+run	test/test_arucodetection.cpp	/^void CV_ArucoBitCorrection::run(int) {$/;"	f	class:opencv_test::__anon14::CV_ArucoBitCorrection
+run	test/test_arucodetection.cpp	/^void CV_ArucoDetectionMarkerSize::run(int) {$/;"	f	class:opencv_test::__anon14::CV_ArucoDetectionMarkerSize
+run	test/test_arucodetection.cpp	/^void CV_ArucoDetectionPerspective::run(int) {$/;"	f	class:opencv_test::__anon14::CV_ArucoDetectionPerspective
+run	test/test_arucodetection.cpp	/^void CV_ArucoDetectionSimple::run(int) {$/;"	f	class:opencv_test::__anon14::CV_ArucoDetectionSimple
+CV_ArucoBoardPose	test/test_boarddetection.cpp	/^CV_ArucoBoardPose::CV_ArucoBoardPose() {}$/;"	f	class:opencv_test::__anon15::CV_ArucoBoardPose
+CV_ArucoBoardPose	test/test_boarddetection.cpp	/^class CV_ArucoBoardPose : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon15	file:
+CV_ArucoRefine	test/test_boarddetection.cpp	/^CV_ArucoRefine::CV_ArucoRefine() {}$/;"	f	class:opencv_test::__anon15::CV_ArucoRefine
+CV_ArucoRefine	test/test_boarddetection.cpp	/^class CV_ArucoRefine : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon15	file:
+TEST	test/test_boarddetection.cpp	/^TEST(CV_ArucoBoardPose, CheckNegativeZ)$/;"	f	namespace:opencv_test::__anon15
+TEST	test/test_boarddetection.cpp	/^TEST(CV_ArucoBoardPose, accuracy) {$/;"	f	namespace:opencv_test::__anon15
+TEST	test/test_boarddetection.cpp	/^TEST(CV_ArucoRefine, accuracy) {$/;"	f	namespace:opencv_test::__anon15
+deg2rad	test/test_boarddetection.cpp	/^static double deg2rad(double deg) { return deg * CV_PI \/ 180.; }$/;"	f	namespace:opencv_test::__anon15
+getSyntheticRT	test/test_boarddetection.cpp	/^static void getSyntheticRT(double yaw, double pitch, double distance, Mat &rvec, Mat &tvec) {$/;"	f	namespace:opencv_test::__anon15
+opencv_test	test/test_boarddetection.cpp	/^namespace opencv_test { namespace {$/;"	n	file:
+projectBoard	test/test_boarddetection.cpp	/^static Mat projectBoard(Ptr<aruco::GridBoard> &board, Mat cameraMatrix, double yaw, double pitch,$/;"	f	namespace:opencv_test::__anon15
+projectMarker	test/test_boarddetection.cpp	/^static void projectMarker(Mat &img, Ptr<aruco::Dictionary> &dictionary, int id,$/;"	f	namespace:opencv_test::__anon15
+run	test/test_boarddetection.cpp	/^void CV_ArucoBoardPose::run(int) {$/;"	f	class:opencv_test::__anon15::CV_ArucoBoardPose
+run	test/test_boarddetection.cpp	/^void CV_ArucoRefine::run(int) {$/;"	f	class:opencv_test::__anon15::CV_ArucoRefine
+CV_CharucoDetection	test/test_charucodetection.cpp	/^CV_CharucoDetection::CV_CharucoDetection() {}$/;"	f	class:opencv_test::__anon13::CV_CharucoDetection
+CV_CharucoDetection	test/test_charucodetection.cpp	/^class CV_CharucoDetection : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon13	file:
+CV_CharucoDiamondDetection	test/test_charucodetection.cpp	/^CV_CharucoDiamondDetection::CV_CharucoDiamondDetection() {}$/;"	f	class:opencv_test::__anon13::CV_CharucoDiamondDetection
+CV_CharucoDiamondDetection	test/test_charucodetection.cpp	/^class CV_CharucoDiamondDetection : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon13	file:
+CV_CharucoPoseEstimation	test/test_charucodetection.cpp	/^CV_CharucoPoseEstimation::CV_CharucoPoseEstimation() {}$/;"	f	class:opencv_test::__anon13::CV_CharucoPoseEstimation
+CV_CharucoPoseEstimation	test/test_charucodetection.cpp	/^class CV_CharucoPoseEstimation : public cvtest::BaseTest {$/;"	c	namespace:opencv_test::__anon13	file:
+TEST	test/test_charucodetection.cpp	/^TEST(CV_CharucoDetection, accuracy) {$/;"	f	namespace:opencv_test::__anon13
+TEST	test/test_charucodetection.cpp	/^TEST(CV_CharucoDiamondDetection, accuracy) {$/;"	f	namespace:opencv_test::__anon13
+TEST	test/test_charucodetection.cpp	/^TEST(CV_CharucoPoseEstimation, accuracy) {$/;"	f	namespace:opencv_test::__anon13
+deg2rad	test/test_charucodetection.cpp	/^static double deg2rad(double deg) { return deg * CV_PI \/ 180.; }$/;"	f	namespace:opencv_test::__anon13
+getSyntheticRT	test/test_charucodetection.cpp	/^static void getSyntheticRT(double yaw, double pitch, double distance, Mat &rvec, Mat &tvec) {$/;"	f	namespace:opencv_test::__anon13
+opencv_test	test/test_charucodetection.cpp	/^namespace opencv_test { namespace {$/;"	n	file:
+projectCharucoBoard	test/test_charucodetection.cpp	/^static Mat projectCharucoBoard(Ptr<aruco::CharucoBoard> &board, Mat cameraMatrix, double yaw,$/;"	f	namespace:opencv_test::__anon13
+projectChessboard	test/test_charucodetection.cpp	/^static Mat projectChessboard(int squaresX, int squaresY, float squareSize, Size imageSize,$/;"	f	namespace:opencv_test::__anon13
+projectMarker	test/test_charucodetection.cpp	/^static void projectMarker(Mat &img, Ptr<aruco::Dictionary> dictionary, int id,$/;"	f	namespace:opencv_test::__anon13
+run	test/test_charucodetection.cpp	/^void CV_CharucoDetection::run(int) {$/;"	f	class:opencv_test::__anon13::CV_CharucoDetection
+run	test/test_charucodetection.cpp	/^void CV_CharucoDiamondDetection::run(int) {$/;"	f	class:opencv_test::__anon13::CV_CharucoDiamondDetection
+run	test/test_charucodetection.cpp	/^void CV_CharucoPoseEstimation::run(int) {$/;"	f	class:opencv_test::__anon13::CV_CharucoPoseEstimation
+TEST	test/test_misc.cpp	/^TEST(CV_ArucoDrawMarker, regression_1226)$/;"	f	namespace:opencv_test::__anon12
+opencv_test	test/test_misc.cpp	/^namespace opencv_test { namespace {$/;"	n	file:
+__OPENCV_TEST_PRECOMP_HPP__	test/test_precomp.hpp	5;"	d
